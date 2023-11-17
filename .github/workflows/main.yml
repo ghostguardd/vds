@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Download
-      run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/... -OutFile ngrok.zip
+      run: Invoke-WebRequest https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbU53UWI0OVhfcUlQZ0ktTmhacjlUNnBPNW5tZ3xBQ3Jtc0tteG5XQTFrSkVLN2VRcDV0THI0N0swUXJOM1hmYnBQd0pTZ0pJUWZFMlRxUWpuYk1ISTFRZURBUGF1dTRKY3ZwbEVFQTJTNmhSa285TVFUMDE3eEZYT1kzRUluVUQ5UGktNWhlSjY3SHhvYXJ5Xy03bw&q=https%3A%2F%2Fbin.equinox.io%2Fc%2F4VmDzA7iaHb%2Fngrok-stable-windows-amd64.zip&v=UAZB91Nl1-8 -OutFile ngrok.zip
     - name: Extract
       run: Expand-Archive ngrok.zip
     - name: Auth
